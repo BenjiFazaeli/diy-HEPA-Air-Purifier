@@ -1,17 +1,6 @@
 # DIY Small HEPA Air Purifier
 Herein lies the thought process behind and instructions for building a relatively quiet, low-foorprint HEPA-rated Air Purifier, with modding options.
 
-The design has to be quiet, effective, with interchangeable parts, and exhibit some amount of fiduciary responsibility.
-
-For effectiveness, we look at the CADR, or Clean air delivery rate, a measure of how much clean air is being emitted by the system.[^1]
-[^1]: https://en.wikipedia.org/wiki/Clean_air_delivery_rate#Understanding_the_rating
-
-For a given room volume (square footage * ceiling height), we can similarly use ACH, or Air Changes per Hour, to see how quickly the system can completely filter the air in a given room.[^2]
-[^2]: https://en.wikipedia.org/wiki/Air_changes_per_hour
-
-For quietness, we compare the noise performance of a different PC Fans, and exclusively looking at PC fans due to their optimized designs for size, efficiency, cost, and acoustic pressure (noise) profile. 
-
-HWCooling.net has charts comparing test scores between various fans, and that coupled with user anecdotes on reddit led me to pick the Arctic P12 Pro ARGB for this build (static pressure charts seen here: https://www.hwcooling.net/en/arctic-p12-pro-a-rgb-the-benchmark-for-illuminated-fans-review/22/)
 
 # Credits and Similar
 To credit my inspiration, and in case this project isn't what you're looking for, here are some links:
@@ -26,5 +15,22 @@ To credit my inspiration, and in case this project isn't what you're looking for
 
 And of course, if the CADR is too low for your purpose, here's a helpful guide for a much bigger unit, the Corsi-Rosenthal box / Comparetto Cube:
 https://github.com/wrichter/GermanyDYIAirCleaner
+
+# Design Process
+## Requirements
+The design has to be quiet, effective, with interchangeable parts, and exhibit some amount of fiduciary responsibility.
+
+For effectiveness, we look at the CADR, or Clean air delivery rate, a measure of how much clean air is being emitted by the system.[^1]
+[^1]: https://en.wikipedia.org/wiki/Clean_air_delivery_rate#Understanding_the_rating
+
+For a given room volume (square footage * ceiling height), we can similarly use ACH, or Air Changes per Hour, to see how quickly the system can completely filter the air in a given room.[^2]
+[^2]: https://en.wikipedia.org/wiki/Air_changes_per_hour
+
+For quietness, we compare the noise performance of a different PC Fans, and exclusively looking at PC fans due to their optimized designs for size, efficiency, cost, and acoustic pressure (noise) profile. 
+
+HWCooling.net has charts comparing test scores between various fans, and that coupled with user anecdotes on reddit led me to pick the Arctic P12 Pro ARGB for this build (static pressure charts seen here: https://www.hwcooling.net/en/arctic-p12-pro-a-rgb-the-benchmark-for-illuminated-fans-review/22/)
+
+
+
 
 
