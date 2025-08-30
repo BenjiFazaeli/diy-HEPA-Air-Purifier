@@ -1,6 +1,7 @@
 # DIY Small HEPA Air Purifier
 Herein lies the thought process behind and instructions for building a relatively quiet, low-foorprint HEPA-rated Air Purifier, with modding options.
 
+Add image or render of build here
 
 # Credits and Similar
 To credit my inspiration, and in case this project isn't what you're looking for, here are some links:
@@ -28,7 +29,26 @@ For a given room volume (square footage * ceiling height), we can similarly use 
 
 For quietness, we compare the noise performance of a different PC Fans, and exclusively looking at PC fans due to their optimized designs for size, efficiency, cost, and acoustic pressure (noise) profile. 
 
+## Fan Selection
 HWCooling.net has charts comparing test scores between various fans, and that coupled with user anecdotes on reddit led me to pick the Arctic P12 Pro ARGB for this build (static pressure charts seen here: https://www.hwcooling.net/en/arctic-p12-pro-a-rgb-the-benchmark-for-illuminated-fans-review/22/)
+The 140 mm fans move more air at a greater pressure, but are also louder (add quantitative testimonials?), and so the 120mm Arctic fans were chosen.
+
+Also RGB Lights are cool, maybe this can double as a lamp. HWCooling.net show it having a max white light luminance of 1684 lx (lx being the lux, the luminance flux per area, or lumens / squar meter)[^3]. 
+
+From, the IES Handbook via https://www.bannerengineering.com/us/en/company/expert-insights/lux-lumens-calculator.html, we have this chart, which leads me to believe that the RGB on the fan is bright enough to serve as a lamp for a kitchen or living room:
+|     Application    | Recommended Lux Ages 25-65 | Recommended Lux Ages 65+ |
+|:------------------:|:--------------------------:|:------------------------:|
+|  Warehouse         |  100                       |  200                     |
+|  Work area         |  150                       |  300                     |
+|  General assembly  |  1,000                     |  2,000                   |
+|  Detailed assembly |  2,000                     |  4,000                   |
+|  Fine inspection   |  5,000                     |  10,000                  |
+
+[^3]: https://www.hwcooling.net/en/arctic-p12-pro-a-rgb-the-benchmark-for-illuminated-fans-review/41/
+## Filter Selection
+Given the selection of 120 mm fan, we need the HEPA filter to have an opening of at least 120mm. A larger cylinder would actually improve performance, by increasing teh surface area and leading to a less severe pressure drop across the filter.
+
+## Power Supply
 
 
 
