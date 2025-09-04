@@ -35,6 +35,8 @@ https://www.arctic.de/us/P12-Pro-A-RGB/ACFAN00309A
 
 HWCooling.net has charts comparing test scores between various fans, and that led me to pick the Arctic P14 Pro A-RGB for this build (static pressure charts seen here: https://www.hwcooling.net/en/arctic-p14-pro-a-rgb-dominance-continues-review/22/)
 
+For higher static pressure, we could mount two fans in series using a [coupler shroud](https://www.thingiverse.com/thing:6200902).
+
 Also RGB Lights are cool, maybe this can double as a lamp. HWCooling.net show it having a max white light luminance of 2656 lx (lx being the lux, the luminance flux per area, or lumens / square meter)[^3]. 
 
 From, the IES Handbook via https://www.bannerengineering.com/us/en/company/expert-insights/lux-lumens-calculator.html, we have this chart, which leads me to believe that the RGB on the fan is bright enough to serve as a lamp for a kitchen or living room:
@@ -47,8 +49,9 @@ From, the IES Handbook via https://www.bannerengineering.com/us/en/company/exper
 |  Fine inspection   |  5,000                     |  10,000                  |
 
 [^3]: https://www.hwcooling.net/en/arctic-p14-pro-a-rgb-dominance-continues-review/41/
+
 ## Filter Selection
-Given the selection of 120 mm fan, we need the HEPA filter to have an opening of at least 120mm. A larger cylinder would actually improve performance, by increasing the surface area and leading to a less severe pressure drop across the filter.
+Given the selection of 140 mm fan, we need the  filter to have an opening of at least 140mm. A larger cylinder would actually improve performance, by increasing the surface area and leading to a less severe pressure drop across the filter.
 
 ## Power Supply
 
